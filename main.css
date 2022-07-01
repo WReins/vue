@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'vue';
+    src: url(8d2e8eeb02b0e6d5.otf);
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+img.logo {
+    width: 112px;
+    height: 45.5px;
+}
+
+nav.top {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav.bottom {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    font-family: 'vue', sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+p {
+    font-family: 'vue', sans-serif;
+    font-size: 18px;
+    color: #8D8F99;
+    letter-spacing: 0.5px;
+}
+
+div.search {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #2B2C33;
+    padding: 14px;
+}
+
+.top li {
+    color: #8D8F99;
+    font-size: 18px;
+}
+
+.bottom li {
+    color: white;
+    font-size: 20px;
+}
+
+li img {
+    padding: 4px;
+}
+
+/*# sourceMappingURL=main.css.map*/
